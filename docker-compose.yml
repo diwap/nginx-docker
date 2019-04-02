@@ -1,0 +1,7 @@
+web:
+  build: .
+  volumes:
+    - ./sites:/usr/share/nginx
+  ports:
+    - "80:80"
+  container_name: docker-nginx
